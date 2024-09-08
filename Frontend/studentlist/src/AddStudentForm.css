@@ -1,0 +1,64 @@
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 100px;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #13665A;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    width: 30%;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .form-group input {
+    width: 65%;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 3px;
+  }
+  
+  .form-actions {
+    text-align: center; /* Center-aligns the button container */
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 8px 15px;
+    margin: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-btn {
+    background-color: #007bff; /* Blue color for the "Add" button */
+  }
+  
+  .clear-btn {
+    background-color: #007bff; /* Blue color for the "Clear" button */
+  }
+  
+  .close-btn {
+    background-color: #d9534f; /* Red color for the "Close" button */
+  }
+  
